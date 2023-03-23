@@ -1,0 +1,31 @@
+.navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: lightblue;
+
+  .logo {
+    color: white;
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    span {
+      font-size: 20px;
+      color: white;
+    }
+    button {
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: rgb(73, 188, 227);
+      color: white;
+    }
+  }
+}
